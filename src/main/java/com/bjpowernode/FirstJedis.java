@@ -11,6 +11,7 @@ public class FirstJedis {
         jedis.select(1);
         String ret =jedis.set("k111", "v111");
         System.out.println(ret);
+        System.out.println("dsfdskjfdskfjsasdklj");
 
     }
 }
